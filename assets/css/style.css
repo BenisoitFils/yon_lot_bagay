@@ -1,0 +1,88 @@
+.img_active,
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: #dedede;
+	border: none;
+	cursor: pointer;
+	
+}
+
+.img:hover {
+    background-color: #2980b9; /* Bleu plus foncé au survol */
+}
+
+.img_active {
+	background-color: red;
+	color: white;
+	box-shadow: 0px 0px 15px 2px #000;
+	color: #fff; /* Blanc */
+    transition: background-color 0.3s ease;
+}
+
+.inputs_section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #dedede;
+	padding: 20px;
+}
+
+.inputs_section div {
+	display: flex;
+	flex-direction: column;
+}
+.inputs_section div img {
+	width: 200px;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+}
+
+
+.info {
+    font-size: 12px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+  .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .password-container select {
+    margin-right: 10px;
+  }
+  
+  .password-container button {
+    margin-left: 10px;
+  }
+  
+  h2:first-of-type {
+    margin-bottom: 10px; 
+  }
+  
+  .password-controls {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
